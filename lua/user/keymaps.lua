@@ -26,8 +26,8 @@ keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
 -- Resize with arrows
-keymap("n", "<Up>", ":resize -2<CR>", opts)
-keymap("n", "<Down>", ":resize +2<CR>", opts)
+keymap("n", "<Up>", ":resize +2<CR>", opts)
+keymap("n", "<Down>", ":resize -2<CR>", opts)
 keymap("n", "<Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<Right>", ":vertical resize +2<CR>", opts)
 
@@ -60,4 +60,3 @@ keymap("x", "J", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "K", ":move '<-2<CR>gv-gv", opts)
 keymap("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
-
